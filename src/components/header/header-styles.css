@@ -1,0 +1,46 @@
+@font-face {
+  font-family: Moderne Sans;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/moderne_sans.woff2);
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #000;
+  background-size: cover;
+}
+.fashion {
+  min-height: 14vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  color: transparent;
+  transition: 0.4s;
+  z-index: 3;
+}
+header:hover {
+  background: rgba(0, 0, 0, 0.8);
+  color: rgb(255, 255, 255);
+}
+h1 {
+  font-family: Moderne Sans, sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  width: 100%;
+  letter-spacing: 0.5rem;
+}
+nav a {
+  text-decoration: none;
+  color: inherit;
+  padding: 1rem;
+}
+nav a:hover {
+  color: rgb(242, 123, 4);
+}

@@ -1,0 +1,13 @@
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+body {
+  background: linear-gradient(
+    0deg,
+    rgba(205, 205, 205, 1) 90%,
+    rgb(38, 38, 38) 100%
+  );
+}
